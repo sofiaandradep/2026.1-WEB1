@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<head>
+    <Title>Formulário</Title>
+</head>
+<body>
+  <h1>Formulário</h1>
+  <form action="/action_page.php">
+
+<fieldset>
+   <legend>Dados pessoais </legend>
+
+
+         <label for="fname">Nome:<label><br>
+         <input type="text" id="fname" name="fname" value=""><br>
+
+         <label for="nascimento">Data de nascimento:</label><br>
+         <input type="date" id="nascimento" name="Data de nascimento"><br>
+
+          <label for="endereco">Endereço:</label><br>
+         <input type="text" id="endereco" name="endereco" value=""><br><br>
+
+         <label for="bairro">Bairro:</label>
+         <input type="text" id="bairro" name="bairro" value="">
+
+         <label for="cidade">Cidade:</label>
+         <input type="text" id="cidade" name="cidade" value=""><br>
+
+         <label for="cep">CEP:</label>
+         <input type="text" id="cidade" name="cidade" value="">
+
+         <label for="estado">Estado:</label>
+        <input type="text" id="estado" name="estado" value=""><br><br>
+
+        <label for="cor">Cor favorita:</label><br>
+         <input type="color" id="cor" name="cor" value=""><br>
+
+         <label for="satisfacao">Nível de satisfação:</label><br>
+         <input type="range" id="satisfacao" name="satisfacao" min="0" max="100" value="50">
+
+    
+</fieldset>
+  </form> 
+
+
+  <form action="/action_page.php">
+  <fieldset>
+  <legend> Dados profissionais</legend>
+  
+
+    <p>Natureza do cargo:</p>
+
+    
+      <input type="radio" id="gerencia" name="natureza" value="Gerencia">
+      <label for="gerencia">Gerência</label><br>
+      <input type="radio" id="financeiro" name="natureza" value="Financeiro">
+      <label for="financeiro">Financeiro</label><br>
+      <input type="radio" id="recepcao" name="natureza" value="Recepção">
+      <label for="recepcao">Recepção</label><br>
+      <input type="radio" id="administrativo" name="natureza" value="Administrativo">
+      <label for="administrativo">Administrativo</label><br>
+      <input type="radio" id="juridico" name="natureza" value="Juridico">
+      <label for="juridico">Juridico</label><br><br>
+
+    <p>Área de interesse:</p>
+
+   
+        <input type="checkbox" id="1" name="1" value="Computacao">
+        <label for="1">Computação</label><br>
+        <input type="checkbox" id="2" name="2" value="Quimica">
+        <label for="2">Química</label><br>
+        <input type="checkbox" id="3" name="3" value="MeioAmbiente">
+        <label for="3">Meio Ambiente</label><br>
+        <input type="checkbox" id="4" name="4" value="Engenharia">
+        <label for="4">Engenharia</label><br>
+        <input type="checkbox" id="5" name="5" value="Matematica">
+        <label for="5">Matemática</label><br>
+
+        <label for="mini-curriculo">Mini-currículo:</label><br>
+        <textarea id="mini-curriculo" name="mini-curriculo" rows="4" cols="50"></textarea>
+        
+      
+     
+    </fieldset>
+  </form>
+<button type="submit">Enviar</button>
+<button type="reset">Limpar</button>
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
